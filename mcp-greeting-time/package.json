@@ -1,0 +1,21 @@
+{
+  "name": "mcp-filesystem",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "start": "npx @modelcontextprotocol/server-filesystem .",
+    "start-custom": "tsx index.ts",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "MCP Filesystem Server",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.16.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.1.0",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  }
+}

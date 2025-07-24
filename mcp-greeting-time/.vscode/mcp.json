@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "custom-time-filesystem": {
+      "command": "tsx",
+      "args": [
+        "index.ts"
+      ],
+      "cwd": "./mcp-filesystem"
+    },
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y", 
+        "@modelcontextprotocol/server-filesystem",
+        "."
+      ]
+    }
+  }
+}
