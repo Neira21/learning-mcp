@@ -16,6 +16,20 @@ https://github.com/modelcontextprotocol/typescript-sdk
 
 
 
+En la una carpeta .vscode se encuentra el archivo `mcp.json` que contiene la configuración del servidor MPC. Este archivo es utilizado por Visual Studio Code para interactuar con el servidor MPC.
 
+```json
+{
+	"servers": {
+		"weather-server": {
+			"type": "stdio",
+			"command": "node",
+			"args": [
+        "c:\\Users\\Alvaro\\Desktop\\learning-mcp\\mcp-introduction\\main.js"
+      ]
+		},
+	},
+	"inputs": []
+}
 
-
+```

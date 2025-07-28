@@ -24,6 +24,9 @@ build/
 *.swo
 *~
 
+index.js
+main.js
+
 # OS generated files
 .DS_Store
 .DS_Store?

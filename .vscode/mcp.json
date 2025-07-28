@@ -1,0 +1,12 @@
+{
+	"servers": {
+		"weather-server": {
+			"type": "stdio",
+			"command": "node",
+			"args": [
+        "c:\\Users\\Alvaro\\Desktop\\learning-mcp\\mcp-introduction\\main.js"
+      ]
+		},
+	},
+	"inputs": []
+}
