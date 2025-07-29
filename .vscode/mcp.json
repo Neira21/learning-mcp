@@ -7,6 +7,15 @@
         "c:\\Users\\Alvaro\\Desktop\\learning-mcp\\mcp-introduction\\main.js"
       ]
 		},
+    "Weather-Server": {
+      "type": "stdio",
+			"command": "npx",
+			"args": [
+        "-y",
+        "tsx",
+        "c:\\Users\\Alvaro\\Desktop\\learning-mcp\\mcp-weather\\main.ts"
+      ]
+    }
 	},
 	"inputs": []
 }
